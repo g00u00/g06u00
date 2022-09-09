@@ -1,0 +1,10 @@
+DefaultLanguage ru
+AddDefaultCharset windows-1251
+Options +Indexes
+DirectoryIndex index.htm
+AuthUserFile /var/www/marshirov/data/nn2000.info/public_html/testing/.htpasswd
+AuthType Basic
+AuthName "notroot"
+Require valid-user
+#htpasswd -c .htpasswd i
+#~/var/../data/etc/.htpasswd

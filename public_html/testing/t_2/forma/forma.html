@@ -1,0 +1,69 @@
+﻿<html>
+<head>
+    <meta http-equiv='content-type' content='text/html'  charset='windows-1251'>
+    <title>Формы для передачи данных на сервер</title>
+</head>
+
+<body>
+<h3>Фрагмент</h3>
+<form  action="../../../cgi-bin/f_submission.pl"   target='_self' method='get'>
+<!--<form  action="http://ed.nn2000.info/cgi-bin/f_submission.pl"   target='_self' method='get'>-->
+    
+    <p>
+    1. Название книги 
+    <select name="book">
+        <OPTION value="Война и мир">Война и мир</OPTION> 
+        <OPTION value="Анна Каренина">Анна Каренина</OPTION> 
+        <OPTION value="Чук и Гек">Чук и Гек</OPTION> 
+        </select>
+    <br><br><br>
+    </p>
+
+    <p>2. Координаты клиента: 
+    <br>Фамилия: <input type="Text" name="last_name" value="Петров"   size=8 >
+    Имя: <input type="Text"  name="first_name" value="Петр"    size=10 >
+    Отчество: <input type="Text"  name="second_name" value="Петрович"    size=10 >
+    </p>
+    <p>3. Заказать: <input type="Text" name="quantity" value="5"   size=2 >шт.
+    по цене  <input type="Text"  name="price" value="500" size=4 > руб
+    </p>
+    <p>4. Место проживания: 
+    <input type="Radio" name="place" value="Москва">Москва
+    <input type="Radio" name="place" value="Нижний" >Нижний
+    <input type="Radio" name="place" value="Бор" checked>Бор
+    </p>
+    <p>5. Время получения заказа: 
+    <input type="Checkbox" name="time"  value="10-12" checked >10-12
+    <input type="Checkbox" name="time"  value="12-14">12-14
+    <input type="Checkbox" name="time"  value="14-16">14-16
+    </p>
+    <p>6. Дополнительная информация: 
+    <br><TEXTAREA name="info" rows=2 cols=14>Для дополнительной информации</TEXTAREA>
+    </p>
+    <p>7. Пароль: <input type="Password" name="password" value="12356"  size=9></p>
+    <!--Все нижерасположенные фрагменты перемещать нельзя, редактировать можно-->
+        <p><input type="Hidden" name="file_name" value="file.txt" ></p>
+        <p>
+        <input type="Reset"  name="Reset" value="Обновить">
+        <input type="Submit" name="submit" value="Отправить">
+        <!--
+        <input type="image" src="src.jpg" name="submit" value="submit">
+        -->
+        </p>
+</form>
+<p>Для обработки данных можно использовать скрипт на сервере: 
+<br>http://bim.nn2000.info/cgi-bin/f_submission.pl
+</p>
+</body>
+<!--
+Создать страницу позволяющую записывать на сервере
+ - заказы товаров из эл.магазина содержащие фото
+ - создавать телефонный справочник
+ - производить расчет оплаты а выполненную сдельную работу
+ - оценивать прибыльность небольшой розничной точки
+ - оценивать инвестиционный проект
+ и др
+-->
+
+</html> 
+

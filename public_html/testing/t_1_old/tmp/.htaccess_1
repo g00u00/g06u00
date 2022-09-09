@@ -1,0 +1,6 @@
+<Limit GET POST>
+	require valid-user
+</Limit>
+AuthType Basic
+AuthName "/www/marshirov.nnov.ru/public_html/testing/t_1/"
+AuthUserFile /var/www/marshirov/data/etc/19899339.passwd

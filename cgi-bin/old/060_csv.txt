@@ -1,0 +1,6 @@
+first_name,last_name
+Baked,Beans
+Lovely,Spam
+Wonderful,Spam
+a,100
+вг,200

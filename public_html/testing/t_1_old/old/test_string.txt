@@ -1,0 +1,8 @@
+ѕредполагаетс€, что  на  http://127.0.0.1/f_1/cgi-bin/anketa.pl  передаетс€ только информаци€ по умолчанию в соответствии с операторами расположенными в строках: 12, 21,22. Ќаписать содержимое адресной строки	http://127.0.0.1/f_1/cgi-bin/anketa.pl?first_name=Ivan	f.gif	9
+ѕредполагаетс€, что на  http://127.0.0.1/f_1/cgi-bin/anketa.pl передаетс€ только информаци€ по умолчанию в соответствии с оператором расположенными в строке 15,20-23. Ќаписать содержимое адресной строки	http://127.0.0.1/f_1/cgi-bin/anketa.pl?age=20	f.gif	11
+»з диапазона строк 15-29, через зап€тую указать  номера  строк , при помощи которых будут последовательно сформированы по умолчанию и переданы на сервер дл€ последующей обработки  данные	15,26	f.gif	12
+Ќаписать строку запроса, котора€ будет отправлена представленной формой	last_name=Ivanov&Semenov=Semenov&experience=marketmen&languages=&submit=submit	forma.gif
+Ќаписать строку запроса, котора€ будет отправлена представленной формой при закомментированных 10-11 строках	last_name=Ivanov&experience=marketmen&languages=&submit=submit	forma.gif
+Ќаписать строку запроса, котора€ будет отправлена представленной формой 	last_name=Ivanov&market=&languages=&control=to_table&submit=Submit	html_forma.gif
+Ќаписать строку запроса, котора€ будет отправлена представленной формой если раскомментировать строку є8	last_name=Ivanov&place=Moscow&market=&languages=&control=to_table&submit=Submit	html_forma.gif
+Ќаписать строку запроса, котора€ будет отправлена представленной формой при закомментированной 13-й строке	last_name=Ivanov&languages=&control=to_table&submit=Submit	html_forma.gif

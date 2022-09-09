@@ -1,0 +1,4 @@
+#AuthUserFile "/home/mar10000/.htpasswds/public_html/public_html/testing/t_1/passwd"
+#AuthType Basic
+#AuthName "hsennov"
+#require valid-user

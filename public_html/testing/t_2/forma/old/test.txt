@@ -1,0 +1,13 @@
+Предполагается, что  на  http://127.0.0.1/f_1/cgi-bin/anketa.pl  передается только информация по умолчанию в соответствии с операторами расположенными в строках: 12, 21,22. Написать содержимое адресной строки	http://127.0.0.1/f_1/cgi-bin/anketa.pl?first_name=Ivan	f.gif	9
+Предполагается, что на  http://127.0.0.1/f_1/cgi-bin/anketa.pl передается только информация  по умолчанию в соответствии с оператором расположенными в строке 22-28 . Написать содержимое адресной строки	http://127.0.0.1/f_1/cgi-bin/anketa.pl?place=Nizhny	f.gif	10
+Предполагается, что на  http://127.0.0.1/f_1/cgi-bin/anketa.pl передается только информация по умолчанию в соответствии с оператором расположенными в строке 15,20-23. Написать содержимое адресной строки	http://127.0.0.1/f_1/cgi-bin/anketa.pl?age=20	f.gif	11
+Из диапазона строк 15-29, через запятую указать  номера  строк , при помощи которых будут последовательно сформированы по умолчанию и переданы на сервер для последующей обработки  данные	15,26	f.gif	12
+Написать строку запроса, которая будет отправлена представленной формой	last_name=Ivanov&Semenov=Semenov&experience=marketmen&languages=&submit=submit	forma.gif
+Написать строку запроса, которая будет отправлена представленной формой при закомментированных 10-11 строках	last_name=Ivanov&experience=marketmen&languages=&submit=submit	forma.gif
+Написать строку запроса, которая будет отправлена представленной формой при закомментированной 11-й строке	last_name=Ivanov&experience=marketmen&languages=&submit=submit	forma.gif
+Написать строку запроса, которая будет отправлена представленной формой при закомментированных 9-11 строках раскомментировнной 16-й	last_name=Ivanov&experience=marketmen&languages=&submit=submit	forma.gif
+Написать строку запроса, которая будет отправлена представленной формой при закомментированных 9-11 строках и  раскомментировнных 26-28	last_name=Ivanov&experience=marketmen&languages=&control=test&submit=submit	forma.gif
+Написать строку запроса, которая будет отправлена представленной формой 	last_name=Ivanov&market=&languages=&control=to_table&submit=Submit	html_forma.gif
+Написать строку запроса, которая будет отправлена представленной формой если раскомментировать строку №8	last_name=Ivanov&place=Moscow&market=&languages=&control=to_table&submit=Submit	html_forma.gif
+Написать строку запроса, которая будет отправлена представленной формой при закомментированной 13-й строке	last_name=Ivanov&languages=&control=to_table&submit=Submit	html_forma.gif
+Написать строку запроса, которая будет отправлена представленной формой при закомментированных 19-20 строках	last_name=Ivanov&market=&languages=bad&control=to_table&submit=Submit	html_forma.gif
